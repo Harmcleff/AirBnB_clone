@@ -39,12 +39,4 @@ Quit command to exit the program
 ```
 
 ## CONTRIBUTORS
-
-## Al-Areef
-
-- Github:  [NUCCASJNR](https://github.com/NUCCASJNR)
-- Twitter:  [codewithalareef](https://twitter.com/codewithalareef)
-
-## Ayobami
-
-- Github: [Ayobami](https://github.com/Ayobami6)
+1. Sanyaolu Hammed
