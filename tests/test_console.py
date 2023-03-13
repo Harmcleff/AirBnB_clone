@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python2
 """Module for TestHBNBCommand class."""
 
 from console import HBNBCommand
