@@ -1,60 +1,45 @@
-/* search bar */
-div.container {
-    max-width: 1000px;
-    margin: 30px auto;
-    text-align: center;
-}
-
-/* filters bar */
-section.filters {
-    background-color: white;
+.filters{
+    background-color: #fff;
     height: 70px;
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
 }
-
-section.filters button {
+.filters button{
+    font-size: 18px;
     background-color: #FF5A5F;
+    color: #fff;
     height: 48px;
     width: 20%;
     border: 0;
     border-radius: 4px;
-    font-size: 18px;
-    color: #FFFFFF;
-    float: right;
     margin: 11px 30px;
+    margin-left: auto;
 }
-
-section.filters button:hover {
-    opacity: .78;
-}
-
-/* location and amenities part of search bar */
-.locations,
-.amenities {
+.locations, .amenities{
     height: 100%;
     width: 25%;
-    float: left;
+    padding-left: 50px;
 }
-
-/* Location */
-.locations {
+.locations{
     border-right: 1px solid #DDDDDD;
 }
 
-.locations h3,
-.ammenities h3 {
+.locations h3, .amenities h3{
     font-weight: 600;
-    /* font-size: 16px; */
-    padding: 5px;
-    margin: 0;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
-
-.locations h4,
-.amenities h4 {
-    font-weight: 600;
+.locations h4, .amenities h4{
+    font-weight: 400;
     font-size: 14px;
-    padding: 10;
-    margin: 0;
+    text-align: left;
+    margin-top: 5px;
+}
+.filters button:hover{
+    opacity: 0.9;
 }
